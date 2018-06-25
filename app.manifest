@@ -1,0 +1,130 @@
+{
+    "namespace": "dtermed.webapp.bpclight",
+    "git": "https://github.com/cerema/dtermed.webapp.bpclight.git",
+    "title": "BPCLight",
+    "description": "Base du personnel centralisée",
+    "platform": "webapp",
+    "uid": "e404d3a0-cc1d-418b-bd68-1ffef1b06551",
+    "version": "1.3.0",
+    "build": 171,
+    "copyright": "Copyright (c) 2016 By CEREMA",
+    "license": "BSD",
+    "author": {
+        "name": "Stéphane Zucatti",
+        "mail": "stephane.zucatti@me.com",
+        "twitter": "@mydearsz"
+    },
+    "team": {
+        "debugger": [],
+        "tester": []
+    },
+    "langs": [
+        "en",
+        "fr"
+    ],
+    "paths": {
+        "@omneedia": "/cdn",
+        "Contents": "Contents/Application/app",
+        "Lib": "Contents/Application/app/libraries",
+        "Ext": "@omneedia/omneedia/modules/Ext",
+        "Ext.ux": "@omneedia/omneedia/modules/Ext/ux",
+        "Ext.plugin": "@omneedia/omneedia/modules/Ext/plugin",
+        "Ext.util": "@omneedia/omneedia/modules/Ext/util"
+    },
+    "frameworks": [
+        {
+            "name": "EXTJS",
+            "version": "6.2.0",
+            "theme": "classic",
+            "style": "classic",
+            "src": [
+                "@omneedia/ajax/libs/extjs/{version}/ext-all-debug.js",
+                "@omneedia/ajax/libs/extjs/{version}/{theme}/theme-{style}/theme-{style}-debug.js"
+            ],
+            "res": [
+                "@omneedia/ajax/libs/extjs/{version}/{theme}/theme-{style}/resources/theme-{style}-all-debug.css"
+            ],
+            "i18n": [
+                "@omneedia/ajax/libs/extjs/{version}/classic/locale/locale-{lang}.js"
+            ]
+        },
+        {
+            "name": "jquery",
+            "version": "3.2.1",
+            "src": "@omneedia/ajax/libs/jquery/{version}/jquery.js"
+        },
+        {
+            "name": "OMNEEDIA",
+            "version": "0.9.1",
+            "src": [
+                "@omneedia/ajax/libs/socket.io/2.0.3/socket.io.js",
+                "@omneedia/omneedia/{version}/utils.modules.js",
+                "@omneedia/omneedia/{version}/app.js",
+                "@omneedia/omneedia/{version}/extjs.modules.js"
+            ],
+            "res": [
+                "@omneedia/ajax/libs/animate.css/3.5.2/animate.css",
+                "@omneedia/omneedia/{version}/res/webapp.css",
+                "Contents/Resources/webapp.css"
+            ],
+            "i18n": [
+                "@omneedia/omneedia/{version}/libs/Date/date-{lang}.js",
+                "@omneedia/omneedia/{version}/i18n/{lang}.json"
+            ]
+        }
+    ],
+    "auth": [
+        "CEREMA",
+        "CERBERE"
+    ],
+    "controllers": [
+        "CMain",
+        "CAgent"
+    ],
+    "modules": [
+        "Ext.ux.FilterBox",
+        "Ext.ux.plugin.FileDrop",
+        "Ext.ux.DateTimeField",
+        "Ext.ux.upload"
+    ],
+    "plugins": [],
+    "api": [
+        "Agents",
+        "Batiments",
+        "Categories",
+        "Departements",
+        "Etablissements",
+        "Formation",
+        "Medical",
+        "Motif",
+        "Positions",
+        "RendezVous",
+        "Roles",
+        "Services",
+        "Temptation",
+        "Update",
+        "Utils",
+        "bpclight"
+    ],
+    "db": [
+        "bpclight"
+    ],
+    "packages": [
+        "msexcel-builder",
+        "mssql",
+        "wkhtmltopdf",
+        "shortid"
+    ],
+    "icon": {
+        "background": "#FFFFFF",
+        "file": "app.png"
+    },
+    "splashscreen": {
+        "background": "#FFFFFF",
+        "color": "#DBD267",
+        "file": "app.png"
+    },
+    "server": {
+        "port": 3000
+    }
+}

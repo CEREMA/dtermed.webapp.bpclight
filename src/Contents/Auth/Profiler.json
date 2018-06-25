@@ -1,0 +1,25 @@
+{
+	"profiles": [
+		"SRH",
+		"MEDECIN",
+		"SII"
+	],
+	"profile": {
+		"MEDECIN": [
+			"sylviane.gorjux-casu"
+		],
+		"SRH": [
+			"elisabeth.medina",
+			"brigitte.chokroun"
+		],
+		"SII": [
+			"stephane.zucatti",
+			"gil.romand",
+			"catherine.baglin",
+			"alexandre.laugier",
+			"jean-michel.ranchoux",
+			"michel.gomez",
+			"jean-philippe.tenaud"
+		]
+	}
+}

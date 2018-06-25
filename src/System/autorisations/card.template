@@ -1,0 +1,51 @@
+<div class="page">
+		<div class="logo"></div>
+		<div class="service">Direction Territoriale Méditerranée</div>
+		<div class="title">AUTORISATION N° #NUM</div>
+		<div class="t0">de conduite d'un véhicule de l'administration</div>
+		<div class="panel">
+			<table width=100%>
+				<tr>
+					<td width=260>M. Mme :</td>
+					<td width=260>#NOMPRENOM</td>
+				</tr>
+				<tr>
+					<td width=260>Affectation :</td>
+					<td width=260>#AFFECTATION</td>
+				</tr>
+				<tr>
+					<td width=260><small>Titulaire du permis de conduire n°</small></td>
+					<td width=260>#PERMIS</td>
+				</tr>
+				<tr>
+					<td width=260>Catégorie :</td>
+					<td width=260>#CAT_PERMIS</td>
+				</tr>
+				<tr>
+					<td width=260>délivré le :</td>
+					<td width=260>#DATE_PERMIS</td>
+				</tr>
+				<tr>
+					<td width=260>par la préfecture de :</td>
+					<td width=260>#PREFECTURE</td>
+				</tr>
+			</table>
+		</div>
+		<div class="s1">
+		est autorisé(e) à conduire les véhicules du CEREMA,<br> pour les besoins du service.
+		</div>
+		<div class="s2" style="text-align:justify">
+		Cette autorisation est délivrée pour la période du #DATE_DEBUT au #DATE_FIN sous réserve de validité du permis de conduire. Le titulaire de la présente attestation s'engage à faire connaitre immédiatement à son responsable hiérarchique, tout retrait ou annulation de son permis de conduire.
+		</div>
+		<div class="s2 date">
+		à Aix-en-Provence, le <script>document.write(today);</script>
+		</div>
+		<div class="s2 signataire">
+		<div class="SIGNAT"></div>&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;La Directrice Florence HILAIRE
+		</div>
+		<div class="ministere"><div class="CETE">
+		CEREMA - Direction territoriale Méditerranée<br>
+		30 rue Albert Einstein - CS70499 - 13593 AIX EN PROVENCE CEDEX
+		</div>
+	</div>
+</div>

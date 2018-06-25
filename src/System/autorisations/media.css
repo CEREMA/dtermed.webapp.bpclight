@@ -1,0 +1,139 @@
+html
+{
+	-webkit-print-color-adjust:exact;
+  zoom:135%;
+}
+
+Body
+{
+	background-color: white;
+	margin:0px;
+}
+
+.page
+{
+	float: left;
+	border:1px solid #EEEEEE;
+	width:316px;
+	height:440px;
+}
+.PAGE_BREAK
+{
+	page-break-after:always;
+	page-break-before:always;
+	page-break-inside: avoid;
+	-webkit-region-break-after: always;
+	-webkit-region-break-before: always;
+	height:30px;
+}
+.logo
+{
+	padding:4px;
+	background-image:url(media/cerema.png);
+	background-size: 237px 55px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 320px;
+	height: 50px;
+}
+
+.title
+{
+	font-family:tahoma;
+	font-size:14px;
+	padding:4px;
+	text-align:center;
+	width: 320px;
+}
+
+.service
+{
+	font-family:tahoma;
+	font-size:10px;
+	text-align:center;
+	width: 320px;
+}
+
+.t0
+{
+	font-family:tahoma;
+	font-size:11px;
+	text-align:center;
+	width: 320px;
+}
+
+.panel
+{
+	font-family:tahoma;
+	font-size:9px;
+	margin-left:8px;
+	width:100%;
+}
+
+.s1
+{
+	padding:2px;
+	font-family:tahoma;
+	font-size:8px;
+	width:100%;
+	margin-left:14px;
+	font-weight: bold;
+}
+
+.s2
+{
+	padding:2px;
+	font-family:tahoma;
+	font-size:8px;
+	padding:4px;
+	width:90%;
+	text-align: center;
+}
+
+.date
+{
+	padding: 10px;
+	width:100%;
+}
+
+.signataire
+{
+	top:110px;
+	left:0px;
+	z-index:9999;
+}
+
+.ministere
+{
+	width:300px;
+	height:70px;
+	background-image:url(media/ministere.png);
+	background-size: 100px 70px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	position:relative;
+	left: 0px;
+	top: -70px;
+}
+
+.CETE
+{
+	padding-top:74px;
+	margin-left:8px;
+	font-family:tahoma;
+	font-size:8px;
+}
+
+.SIGNAT
+{
+	position:relative;
+	left: 0px;
+	top: -5px;
+	width:320px;
+	height:71px;
+	z-index:1;
+	background-image:url(media/signat.png);
+	background-size: 121px 81px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" media="screen" type="text/css" href="/css/media.css" />
+		<link rel="stylesheet" media="print" type="text/css" href="/css/media.css" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Impression</title>
+		<script>function PrintMe(){window.print();}</script>
+	</head>
+	<body bgcolor=white>
+	<script>var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; //January is 0!
+var yyyy = today.getFullYear();
+
+if(dd<10) {
+    dd='0'+dd
+} 
+
+if(mm<10) {
+    mm='0'+mm
+} 
+
+today = dd+'/'+mm+'/'+yyyy;</script>
+		<template></template>
+	</body>
+</html>
