@@ -1,6 +1,6 @@
 {
     "namespace": "dtermed.webapp.bpclight",
-    "git": "https://github.com/cerema/dtermed.webapp.bpclight.git",
+    "git": "git@github.com:CEREMA/dtermed.webapp.bpclight.git",
     "title": "BPCLight",
     "description": "Base du personnel centralisée",
     "platform": "webapp",
